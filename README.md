@@ -1,4 +1,4 @@
-Sure, here's a `README.md` for your GitHub repository:
+
 
 ```markdown
 # Logistic Regression Example
