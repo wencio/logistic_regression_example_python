@@ -20,7 +20,7 @@ y = df['label']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
 
 # Crear el modelo de regresión logística usando gradiente descendente estocástico
-sgd_model = SGDClassifier(loss='log', max_iter=1000, tol=1e-3, random_state=42)
+sgd_model = SGDClassifier(loss='log_loss', max_iter=1000, tol=1e-3, random_state=42)
 
 # Entrenar el modelo
 sgd_model.fit(X_train, y_train)
